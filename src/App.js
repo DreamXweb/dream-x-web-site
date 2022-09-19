@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Header} from "./components/Header/Header";
 
-function App() {
+{/* TODO firebase admin */}
+
+function AppBoot() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={'container'}>
+
+        <Header />
+
+        {/* TODO next blocks */}
+
+        <hr />
+        <div className="clutch-widget" data-nofollow="true" data-url="https://widget.clutch.co" data-widget-type="2"
+             data-height="45" data-clutchcompany-id="1704815" />
+        <hr />
     </div>
   );
 }
 
-export default App;
+export default AppBoot;

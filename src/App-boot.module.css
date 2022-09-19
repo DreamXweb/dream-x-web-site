@@ -1,0 +1,48 @@
+#container {
+    height: 500px;
+    background-color: red;
+    padding-top: 25px;
+}
+
+#row_1, #row_2 {
+    background-color: yellow;
+}
+
+#row_1 {
+    height: 90px;
+}
+
+#row_2 {
+    margin-top: 30px;
+    height: 300px;
+}
+
+#block_1, #block_2, #block_2_2 {
+    height: 80px;
+}
+
+#block_1, #block_1_1 {
+    background-color: blue;
+}
+
+#block_2, #block_1_2 {
+    background-color: green;
+}
+
+#block_2_1 {
+    background-color: blueviolet;
+}
+
+#block_2_2 {
+    background-color: skyblue;
+}
+
+#block_2_1 {
+    height: 110px;
+}
+
+@media screen and (max-width: 575px) {
+    #block_1 {
+        display: none;
+    }
+}

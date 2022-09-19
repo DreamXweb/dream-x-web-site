@@ -1,0 +1,66 @@
+$lightgreen: #32E11B;
+
+#header {
+  font-size: 18px;
+  font-family: 'Gilroy', system-ui;
+  padding-top: 43px;
+  padding-bottom: 23px;
+}
+
+#nav {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#nav p {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: -19px;
+}
+
+.nav-item {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.nav-item:hover p {
+  font-weight: 600;
+}
+
+.underline {
+  width: 20px;
+  background-color: $lightgreen;
+  height: 2px;
+  display: none;
+  margin-top: -10px;
+}
+
+.nav-item:hover .underline {
+  display: inline-block;
+}
+
+#get-in-touch {
+  border: 1px solid $lightgreen;
+  border-radius: 70px;
+  width: 202px;
+  height: 57px;
+  color: $lightgreen;
+  text-align: center;
+  padding-top: 12px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#get-in-touch:hover {
+  background: $lightgreen;
+  color: white;
+}
+
+#logo-container {
+  text-align: left;
+}
+
+#get-in-touch-container {
+  text-align: right;
+}
