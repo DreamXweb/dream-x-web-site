@@ -1,0 +1,76 @@
+@import "../../variables";
+
+#main-page>div>div {
+  margin-top: 225px;
+}
+
+#web-design-company {
+  color: $lightgreen;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#main-page h1 {
+  font-weight: 700;
+  font-size: 100px;
+  width: 650px;
+  color: $black_2B;
+}
+
+#left {
+  font-family: 'Gilroy', system-ui;
+}
+
+#description {
+  font-weight: 400;
+  font-size: 18px;
+  width: 541px;
+  font-style: normal;
+  color: $black_2B;
+}
+
+#get-started {
+  background-color: $lightgreen;
+  color: white;
+  border-radius: 70px;
+  width: 287px;
+  height: 77px;
+  margin-bottom: 100px;
+  margin-top: 65px;
+  cursor: pointer;
+}
+
+#get-started div {
+  background-color: $lightgreen;
+  opacity: .2;
+  filter: blur(15px);
+  border-radius: 70px;
+  width: 267px;
+  height: 77px;
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 11px;
+}
+
+#get-started:hover div {
+  display: none;
+}
+
+#get-started p {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+#main-page b {
+  font-weight: 600;
+  font-size: 20px;
+  color: $black_2B;
+}
+
+.contact {
+  font-weight: 400;
+  font-size: 20px;
+  color: $black_2B;
+}

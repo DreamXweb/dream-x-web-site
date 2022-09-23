@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Header} from "./components/Header/Header";
+import {MainPage} from "./components/MainPage/MainPage";
 
 {/* TODO firebase admin */}
 
@@ -9,6 +10,8 @@ function AppBoot() {
     <div className={'container'}>
 
         <Header />
+
+        <MainPage />
 
         {/* TODO next blocks */}
 

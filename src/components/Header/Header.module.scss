@@ -1,10 +1,11 @@
-$lightgreen: #32E11B;
+@import "../../variables";
 
 #header {
   font-size: 18px;
   font-family: 'Gilroy', system-ui;
   padding-top: 43px;
   padding-bottom: 23px;
+  position: fixed;
 }
 
 #nav {
@@ -16,6 +17,7 @@ $lightgreen: #32E11B;
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: -19px;
+  color: $black_4B;
 }
 
 .nav-item {
