@@ -66,3 +66,12 @@
 #get-in-touch-container {
   text-align: right;
 }
+
+#background {
+  height: 131px;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

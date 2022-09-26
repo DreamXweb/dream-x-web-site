@@ -1,0 +1,35 @@
+@import "../../../variables";
+
+#service {
+  border: 1px solid $white_f2;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  height: 162px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#name h3 {
+  width: 224px;
+  margin-top: 17%;
+}
+
+#img img {
+  margin-top: 35%;
+  margin-left: 21%;
+}
+
+#description p {
+  margin-top: 10%;
+}
+
+#service>div {
+  height: 100%;
+}
+
+#service:hover {
+  background-color: $lightgreen;
+  color: white;
+}
+
+

@@ -1,6 +1,6 @@
 @import "../../variables";
 
-#main-page>div>div {
+#first-block>div {
   margin-top: 225px;
 }
 
@@ -10,7 +10,7 @@
   font-weight: 600;
 }
 
-#main-page h1 {
+#first-block h1 {
   font-weight: 700;
   font-size: 100px;
   width: 650px;
@@ -21,11 +21,13 @@
   font-family: 'Gilroy', system-ui;
 }
 
-#description {
+#description, #description_2 {
   font-weight: 400;
   font-size: 18px;
+}
+
+#description {
   width: 541px;
-  font-style: normal;
   color: $black_2B;
 }
 
@@ -73,4 +75,52 @@
   font-weight: 400;
   font-size: 20px;
   color: $black_2B;
+}
+
+#second-block {
+  color: $black_27;
+  background-color: $white_fb;
+  margin-top: 240px;
+}
+
+#description_2 {
+  width: 360px;
+  margin-top: 38px;
+  margin-bottom: 70px;
+}
+
+#second-block h2 {
+  font-weight: 700;
+  font-size: 50px;
+  width: 305px;
+}
+
+.button {
+  width: 160px;
+  height: 55px;
+  border: 3px solid $lightgreen;
+  border-radius: 70px;
+  display: inline-block;
+  text-align: center;
+}
+
+.button p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.more img {
+  margin-left: 30px;
+}
+
+.more {
+  cursor: pointer;
+}
+
+.more:hover img {
+  margin-left: 50px;
+}
+
+.more:hover .button {
+  background-color: $lightgreen;
 }
