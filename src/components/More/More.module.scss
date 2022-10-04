@@ -1,0 +1,31 @@
+@import "../../variables";
+
+.more img {
+  margin-left: 30px;
+}
+
+.more {
+  cursor: pointer;
+}
+
+.more:hover img {
+  margin-left: 50px;
+}
+
+.more:hover .button {
+  background-color: $lightgreen;
+}
+
+.button {
+  width: 160px;
+  height: 55px;
+  border: 3px solid $lightgreen;
+  border-radius: 70px;
+  display: inline-block;
+  text-align: center;
+}
+
+.button p {
+  font-size: 18px;
+  margin-top: 10px;
+}

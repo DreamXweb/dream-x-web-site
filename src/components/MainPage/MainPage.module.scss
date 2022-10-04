@@ -81,6 +81,7 @@
   color: $black_27;
   background-color: $white_fb;
   margin-top: 240px;
+  margin-bottom: 192px;
 }
 
 #description_2 {
@@ -89,38 +90,12 @@
   margin-bottom: 70px;
 }
 
-#second-block h2 {
+#main-page h2 {
   font-weight: 700;
   font-size: 50px;
   width: 305px;
 }
 
-.button {
-  width: 160px;
-  height: 55px;
-  border: 3px solid $lightgreen;
-  border-radius: 70px;
-  display: inline-block;
-  text-align: center;
-}
 
-.button p {
-  font-size: 18px;
-  margin-top: 10px;
-}
 
-.more img {
-  margin-left: 30px;
-}
 
-.more {
-  cursor: pointer;
-}
-
-.more:hover img {
-  margin-left: 50px;
-}
-
-.more:hover .button {
-  background-color: $lightgreen;
-}

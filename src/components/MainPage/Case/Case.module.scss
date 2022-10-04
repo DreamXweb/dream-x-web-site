@@ -1,0 +1,27 @@
+@import "../../../variables";
+
+#case img {
+  width: 100%;
+  margin-bottom: 192px;
+}
+
+#name {
+  color: $lightgreen;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#services {
+  margin-bottom: 79px;
+  margin-top: 45px;
+}
+
+.service {
+  border-left: 1px solid $lightgreen;
+  display: inline-block;
+}
+
+.service span {
+  margin-left: 10px;
+  margin-right: 40px;
+}

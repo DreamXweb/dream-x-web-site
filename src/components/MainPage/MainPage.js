@@ -1,11 +1,15 @@
 import s from './MainPage.module.scss';
 import right_1 from '../../assets/img/right_1.png';
-import arrow from '../../assets/img/arrow.png';
 import {Service} from "./Service/Service";
 import mobile_apps_design from '../../assets/img/services/mobile_apps_design.png';
 import web_applications_design from '../../assets/img/services/web_applications_design.png';
 import saas_design from '../../assets/img/services/mobile_apps_design.png';
 import crm_system_design from '../../assets/img/services/crm_system_design.png';
+import {Case} from "./Case/Case";
+import {More} from "../More/More";
+import mover from '../../assets/img/cases/mover.png';
+import controlPlus from '../../assets/img/cases/controlPlus.png';
+import eCommerceAdminPanelCRM from '../../assets/img/cases/eCommerceAdminPanelCRM.png';
 
 const description = "You have the vision for a stunning digital experience. We're the software design and engineering team that can bring it to life.";
 
@@ -43,12 +47,7 @@ export const MainPage = () => {
                 <div className={'col-4'}>
                     <h2>SERVICES WE PROVIDE</h2>
                     <p id={s['description_2']}>{description}<br/><br/>{description}</p>
-                    <div className={s['more']}>
-                        <div className={s['button']}>
-                            <p >Read More</p>
-                        </div>
-                        <img src={arrow} alt={'arrow' }/>
-                    </div>
+                    <More hasArrow={true} />
                 </div>
                 <div className={'col-8'}>
                     <Service img={mobile_apps_design} name={'Mobile Apps Design'} description={description}/>
@@ -57,6 +56,15 @@ export const MainPage = () => {
                     <Service img={crm_system_design} name={'CRM Systems Design'} description={description}/>
                 </div>
             </div>
+
+            <Case title={true} img={mover} name={'Mover'} description={description + '\n' + description} services={['UX/UI Mobile App Design', 'Logo', 'Startup']}/>
+            <Case img={eCommerceAdminPanelCRM} imgToLeft={true} name={'E-Commerce Admin Panel CRM'} description={description + '\n' + description} services={['UX/UI WebDesign', 'CRM System Design']}/>
+            <Case img={controlPlus} name={'Control Plus'} description={description + '\n' + description} services={['UX/UI WebDesign', 'UX Audit']} />
+            <Case img={eCommerceAdminPanelCRM} imgToLeft={true} name={'E-Commerce Admin Panel CRM'} description={description + '\n' + description} services={['UX/UI WebDesign', 'CRM System Design']}/>
+            <div style={{textAlign: 'center'}}>
+                <More hasArrow={true} text={'More Cases'} style={{display: 'inline-block'}} />
+            </div>
+
 
         </div>
 
